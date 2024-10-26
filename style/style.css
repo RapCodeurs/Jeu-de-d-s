@@ -20,17 +20,44 @@ body {
   border: none;
   border-radius: 5px;
   padding: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, #f83600 0%, #bea212 100%);
+}
+
+.btn:active {
+  background-image: linear-gradient(to right, #130d0c 0%, #362f0c 100%);
 }
 
 .js-input {
   border: none;
+  text-align: center;
   border-radius: 5px;
   padding: 5px;
-  margin: 10px 10px 10px 0;
+  margin: 10px 5px 10px 0;
 }
 
 #game {
   font-size: 18px;
   font-weight: bold;
   color: hsla(234, 89%, 15%, 0.925);
+}
+
+.display-image{
+  margin: 25px;
+}
+
+/* Costumisation des parties à afficher à l'écran */
+.display-image img {
+  width: 150px;
+  margin: 5px;
+}
+
+.result {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
 }
